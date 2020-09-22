@@ -1,0 +1,39 @@
+Currently not install plugin
+
+in package.json
+"gitbook-plugin-autocover"
+
+in book.json
+"autocover",
+
+in book.json plugin config
+"autocover":{
+  "title":"TRPG Replay - When ScarletIce Melted.",
+  "author":"Original Mike Shimizu,Port Tsuyoshi CHO",
+  "font":{
+    "size":null,
+    "family":"Impact",
+    "color":"#FFF"
+  },
+  "size":{
+    "w":1800,
+    "h":2360
+  },
+  "background":{
+    "color":"#09F"
+  }
+},
+
+other
+
+textlint-plugin-asciidoc-loose
+
+"plugins": [
+  "asciidoc-loose"
+]
+
+"rules": {
+  "@proofdict/proofdict": {
+    "dictURL": "https://tsuyoshicho.github.io/proof-dictionary/"
+  }
+}

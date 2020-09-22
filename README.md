@@ -1,86 +1,33 @@
-TRPGEpubTemplate
-========
+# エクリプス・フェイズ リプレイ
+## エクリプス・フェイズ リプレイ１ 紅き氷の溶ける時
 
-TRPG Replay EPUB file's Template.
+この文書データは、以下のURL、ライセンス、原著者の文書として公開されているものをHonKitに移植したものです。
+* [http://mitsuryu.sakura.ne.jp/ep/eprep01ch1.html](http://mitsuryu.sakura.ne.jp/ep/eprep01ch1.html "URL")
+* [CC-BY-NC-SA 3.0 Unported](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+* ＧＭ・シナリオ作成：清水三毛
 
-Purpose
--------
+この文書の作成者は以下です。
+* [Tsuyoshi CHO](https://github.com/tsuyoshicho)
 
-When any make a TRPG replay book in EPUB, to create what is a useful templates group.
+## 変更内容
+基本的に無変更での移植を行いました。
 
-based on [tsuyoshicho/TRPGEpub](https://github.com/tsuyoshicho/TRPGEpub).
+以下の点については変更があります。
 
-Template document apply License
-----------------------
+* NPC/GM となっている表記は GM/NPC としている
 
-[Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](http://creativecommons.org/licenses/by/4.0/deed "Attribution 4.0 International")
-{% creativecommons type="by-sa", iconOnly="true" %}
+# ライセンス他
+Eclipse Phase（エクリプス・フェイズ）は、Posthuman Studios LLC の登録商標です。
+
+本作品はクリエイティブ・コモンズ「表示・非営利・継承 3.0 非移植」ライセンスのもとに作成されています。
+ライセンスの詳細については、以下をご覧下さい。
+[CC-BY-NC-SA 3.0 Unported](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+{% creativecommons type="by-nc-sa", iconOnly="true" %}
 {% endcreativecommons %}
 
-The document generated from a template apply License
-----------------------
-
-None. But it's needed only about specification of the name of the template and URL.
-> Based on TRPGEpubTemplate [tsuyoshicho/TRPGEPUBTemplate](https://github.com/tsuyoshicho/TRPGEPUBTemplate).
-
-Tools
-------
-
-* [HonKit](https://github.com/honkit/honkit)
-
-Project Member
---------------
-
-* Tsuyoshi CHO &lt;Tsuyoshi.CHO@Gmail.com&gt;
+TRPGEpubTemplate [tsuyoshicho/TRPGEPUBTemplate](https://github.com/tsuyoshicho/TRPGEPUBTemplate) を基盤としています。
 
 URL
 ---
-
-* [GitHub(edit/manage)](https://github.com/tsuyoshicho/TRPGEPUBTemplate)
-  * [Github Pages(CI build)](https://tsuyoshicho.github.io/TRPGEPUBTemplate/)
-
----------------------------------------
-
-TRPGEpubTemplate(日本語)
-===============
-
-TRPGリプレイのEPUBファイルのテンプレート。
-
-目的
-----
-
-TRPGのリプレイ本をEPUBで作る際、有用なテンプレート群となるものを作成。
-
-[tsuyoshicho/TRPGEpub](https://github.com/tsuyoshicho/TRPGEpub)をベースとしている。
-
-テンプレート文書に適用されるライセンス
-----------
-
-[表示 - 継承 4.0 国際 (CC BY-SA 4.0)](http://creativecommons.org/licenses/by/4.0/deed.ja "表示 - 継承 4.0 国際")
-{% creativecommons type="by-sa", iconOnly="true" %}
-{% endcreativecommons %}
-
-テンプレートから生成したドキュメントに適用されるライセンス
-----------------------
-
-なし。ただしテンプレートの名前およびURLについてのみ明示を必要とする。
-> Based on TRPGEpubTemplate [tsuyoshicho/TRPGEPUBTemplate](https://github.com/tsuyoshicho/TRPGEPUBTemplate).
-
-もしくは
-> TRPGEpubTemplate [tsuyoshicho/TRPGEPUBTemplate](https://github.com/tsuyoshicho/TRPGEPUBTemplate) を基盤としています。
-
-ツール
-------
-
-* [HonKit](https://github.com/honkit/honkit)
-
-プロジェクトメンバー
---------------------
-
-* Tsuyoshi CHO &lt;Tsuyoshi.CHO@Gmail.com&gt;
-
-URL
----
-
-* [GitHub(編集/管理)](https://github.com/tsuyoshicho/TRPGEPUBTemplate)
-  * [Github Pages(CI build)](https://tsuyoshicho.github.io/TRPGEPUBTemplate/)
+* [GitHub(編集/管理)](https://github.com/tsuyoshicho/WhenScarletIceMelted)
+  * [Github Pages(CI build)](https://tsuyoshicho.github.io/WhenScarletIceMelted/)

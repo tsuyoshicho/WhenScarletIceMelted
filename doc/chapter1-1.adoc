@@ -1,0 +1,1829 @@
+= エクリプス・フェイズ リプレイ１－１
+
+== エクリプス・フェイズ リプレイ１ 紅き氷の溶ける時
+
+[role="body_text"]
+２０１２年３月２５日 オフラインセッション
+
+[role="body_text"]
+ある週末。某所の公民館に、ＧＭの呼びかけでプレイヤーが集まった。
+和訳版の発売が決まっている最新ＳＦ・ＴＲＰＧエクリプス・フェイズを体験版ルールでプレイするのだ。
+
+[role="body_text"]
+ＧＭ・シナリオ作成：清水三毛
+
+=== 【プレイヤーキャラクター紹介】
+
+[role="body_text"]
+いずれもデータはサンプルＰＣを使用。
+
+image::../images/tako.png[知性化タコ 「メルクリウスの盗掘屋」]
+ハルノブ::
+  説明::: 知性化タコの盗掘屋。宇宙船の残骸などを漁って生計を立てている。日本語を話し、水墨画と美少女フィギュア収集が趣味。器用で色々できるが、回避は苦手。エゴは男性らしい。好奇心旺盛。
+
+image::../images/reaper.png[サプリメント「サンワード」のサンプルＰＣ 戦闘円盤]
+オレーシャ::
+  説明::: 外見は武骨な戦闘円盤。星間軍事企業ダイレクト・アクション社の宇宙傭兵。エゴは若い女性で、戦闘大好き。レールガンやマシンガンで重武装している。義体はリーパー型。（サプリメント「サンワード」のサンプルＰＣより）
+
+'''
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#世界背景を説明するよ。#
+
+[role="dialog"]
+[gm phrase]#エクリプス・フェイズの舞台は、未来の太陽系だ。#
+
+[role="dialog"]
+[gm phrase]#各惑星に人類のコロニーがある時代で、サイバー技術やナノテクの進歩も著しい。ほとんどの人は脳内にコンピュータを埋め込み、遺伝子調整やサイバー化は当たり前だし、お金さえあれば、 *魂（エゴ）* をデジタルデータ化し、 *義体（モーフ）* を自由に乗り換えることができる。これにより、人は実質的に死ななくなった。知性化された動物や、データだけの電子生命体などもいる。#
+
+[role="dialog"]
+[gm phrase]#だが、１０年前、軍用人工知能 *TITANs（ティターンズ）* が自我に目覚め、人類と機械の戦争が勃発。総人口の９割が失われ、人類は絶滅の危機に瀕している。核、自律マシン兵器やナノテク兵器によって地球は壊滅し、惑星連合によって封鎖されてしまった。今また、人類が絶滅しかねないリスクの芽があれば、早めに摘み取らねばならない。そういうわけで君たちＰＣは、人類絶滅リスク「X-リスク」を消去するため、 *秘密組織ファイアウォール* の工作員をやっている。#
+
+[role="dialog"]
+[gm phrase]#大まかにいって、太陽から火星までの内惑星圏では巨大星間企業（ハイパーコープ）勢力が強く、天王星などの外惑星圏では無政府主義者などの極端な勢力がうごめいているイメージかな。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#今回は私のオリジナルシナリオで、火星が舞台だ。配ったサンプルキャラクターから、好きなものを選んでください。戦闘シーンは、あります。#
+
+[role="dialog"]
+[name pc1]#プレイヤー１#
+[separator]#：#
+[pc1 phrase]#知性化タコかなあ。「メルクリウスの盗掘屋」。#
+
+[role="dialog"]
+[name pc2]#プレイヤー２#
+[separator]#：#
+[pc2 phrase]#戦闘系キャラをやるかな。スカムの宇宙海賊姉さん、ウルティメットの傭兵、ダイレクト・アクション社の傭兵あたりがガチ戦闘系ですか。ダイレクト・アクションにしましょうか。軍事企業の傭兵社員って分かりやすい。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#サンプルＰＣを使うけど、数値的に影響のない趣味のあたりは、お好みで変えてもいいよ。#
+
+[role="dialog"]
+[name pc1]#プレイヤー１#
+[separator]#：#
+[pc1 phrase]#じゃあ、宇宙船の興味や水墨画に加えて、人型のフィギュアを趣味で集めていることにしよう。「骨のある種属でも、少女だけは鑑賞に値するのだ」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#なぜだ（笑）#
+
+[role="dialog"]
+[name pc1]#プレイヤー１#
+[separator]#：#
+[pc1 phrase]#TITANs（ティターンズ）に滅ぼされた地球の遺跡を漁っているうちに、美少女フィギュアにハマってしまったのだ。そして故郷の海でいつの日か泳ぎたい、と思っているタコなのだ。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#タコなのに人間の少女フィギュアに萌えるとは、純粋に変態だな……。名前は母国語から決めていいよ。タコは日本語かな。#
+
+[role="dialog"]
+[name pc2]#プレイヤー２#
+[separator]#：#
+[pc2 phrase]#こっちのサンプルＰＣ、母国語がロシア語で、命名が難しいですね。戦闘機メーカーの名前か、武装神姫あたりからとってみますか。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#性別も自由に設定していい。エクリプス・フェイズでは、エゴの性別とモーフの性別は別々でもいいし、性的な嗜好も人間の男女だけでなく知性化動物やエイリアンも含められるから、複雑な組み合わせが考えられるぞ。#
+
+[role="dialog"]
+[name pc1]#プレイヤー１#
+[separator]#：#
+[pc1 phrase]#ガンダムのボールみたいなリーパーが、メッシュ通信時のアイコンでは初音ミクみたいな美少女グラフィックということもありうるわけか……。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#先日のエクリプス・フェイズ体験会では、インフォモーフ（電子生命体）の外見をミク風に設定しているプレイヤーがいたなあ。#
+
+[role="dialog"]
+[name pc1]#プレイヤー１#
+[separator]#：#
+[pc1 phrase]#ぱねぇ。浮世絵師からとって、名前はハルノブにしよう。「僕は芸術家だ。まだ見ぬ文化財を保護するため、冒険するのだ（キリッ）」ところでこのタコさん、武装のデータは、ピストルとしか書いてないな。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#（原書ルールブックを引用しつつ）ヘビーピストルということにしよう。あとそのタコさん、超テルミット爆薬があるから、エクスサージェント・ウィルスに汚染された敵を焼却したり、最悪の場合は自爆したりするのにも便利だ。#
+
+[role="dialog"]
+[name pc2]#プレイヤー２#
+[separator]#：#
+[pc2 phrase]#名前は、オレーシャ・ザラフィアンス。エゴは戦闘狂というかんじの女性で。精神年齢は二十代前半ぐらいです。「ハハッ、戦闘は楽しいネェ」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#危ないお姉さんだな。#
+
+[role="dialog"]
+[name pc2]#プレイヤー２#
+[separator]#：#
+[pc2 phrase]#レールガンとかミサイルとか、武器のかたまりですよ。#
+
+[role="dialog"]
+[name pc1]#プレイヤー１#
+[separator]#：#
+[pc1 phrase]#もう既に我々は知り合いなんだろうか。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#何回か「ファイアウォール」の秘密作戦をこなしてきた、としておこう。#
+
+[role="body_text"]
+このあと軽く模擬戦闘をしてから、セッションを開始した。
+
+=== シーン１ 秘密の依頼
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#自己紹介をお願いします。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#「メルクリウスの盗掘屋」知性化タコのハルノブだ。冒険心あふれる宇宙船サルベージ業者で、文化財保護のためにフィギュア集めもしているぞ。精神的には２０歳ぐらいで。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#ダイレクト・アクション社の宇宙傭兵、オレーシャです。女性、２６歳。「スリルシーカー」「重商主義」の特徴をもっている。戦闘狂で、報酬をもらって戦うのが好き。ハイパーコープの社員ですね。義体はリーパー。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#君たちは目を覚ました。医療ポッドの中にいるようだ。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#おや？なぜこんなところで？#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#君らの視界に、ウィンドウがポップアップして開く。女性の音声データが流れる。「前のあなた方は失敗したようね」ぶっちゃけ、前の君たちは死亡したようだ。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#やっぱりか。定番だな。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#幼形成熟義体っぽい少女がウィンドウで喋っている。青い髪の女の子だが、どこか整いすぎて不自然な外見だ。少女はファイアウォールの連絡役（プロキシ）、コードネームは仮にＧとでもしておこう。君たちはファイアウォールに属する工作員（センティネル）、彼女のことは何も知らない。ファイアウォール構成員は互いを知らず、組織の全貌も一切分からない。ただ、X-リスクに結びつきそうなウィルス兵器だのTITANsの遺産などに関する情報が入ると、プロキシから君たちセンティネルに指令が下る。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#なんか作戦を任されて、失敗しちゃったわけだな。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#いくらでも精神のバックアップをとっておける時代だからね。君たちの脳には *「スタック」という大脳皮質記録装置* が埋め込まれていて、そこに記憶がセーブされている。#
+
+[role="dialog"]
+[gm phrase]#さて、君らの眼内映像に座標データが表示される。いま居る場所は、火星の義体クリニックのようだ。#
+
+[role="dialog"]
+[gm phrase]#「いま、バックアップからあなた方を起動したところです。残念だけど、完全な記憶はサルベージできなかった」Ｇは事務的に言って、画像をメッシュ経由で君らに送信してきた。#
+
+
+[role="body_text"]
+「前任の」オレーシャとハルノブが最期に見たものは、衛星軌道上の宇宙港ドックだった。
+
+[role="body_text"]
+小型シャトルのものらしいコクピットの主観映像だ。
+そのディスプレイの一つに、古びたドックが映し出されている。
+
+[role="body_text"]
+「あれが目標の宇宙港だな。これより潜入し、捜査する。データ送信は１分後に終了」
+
+[role="body_text"]
+ホロ・ディスプレイに、接近するための軌道要素が予測進路として立体表示され、ほの青く光っている。
+機首のスラスタかららしい逆噴射のプラズマが、キャノピーの外で輝く。
+順調だ。相対速度差は徐々に小さく……
+
+[role="body_text"]
+突如、警報。
+閃光が走り、意識と記録は途絶えた。
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#潜入が始まってすらいないじゃないかー！#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「２人だけで潜入捜査なんて、そもそも無理があったんじゃないか？」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#しかしダイレクト・アクション社の傭兵ということは会社員だよな。会社と関係ないミッションで死んだ場合、上司への報告はどうするんだろうな。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#適当な理由で有給とって、バックアップで復活して何気なく出勤するのでは。私物の義体なら問題ないでしょ。「なんかお前、義体キレイになってね？」 *「いやあ。ちょっと休暇中に死んじゃいまして。てへぺろ」* みたいな。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#ま、まあ。ＰＭＣだし、休暇中に私用で戦うこともあるんだろうね。#
+
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#Ｇ#
+[separator]#：#
+[gm phrase]#「残念ながら迎撃システムを突破できなかったようね」#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「船ごと墜ちたか。楽しいネェ」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#Ｇ#
+[separator]#：#
+[gm phrase]#「繰り返しになりますが……一ヶ月ほど前、火星の北極冠付近にある開拓コロニー＜Ｄ１９２＞が消息を絶ちました。この地域でハイパーコープによる秘密の実験があったという情報もあり、 *X-リスクが存在する可能性があります。まだ正確な座標すらわかっていませんが、原因をつきとめ、可能ならば、解決してください」* これが今回のシナリオ目標です。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#その前に、いまの火星はどんなかんじなのかな。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#サプリ「サンワード」に書かれているが、独自解釈もまじえて。まず極冠は、氷に覆われていて、まだまだ未開の地ということにしておこう。火星は、現在テラフォーミング進行中。ニュー上海をはじめとして巨大なドーム都市もあるけど、まだ大気も薄くて外での行動には専用のモーフが必要。田舎にいくと西部劇の開拓時代のような環境だ。そういう辺境では、安物の合成義体に入った人々、バルスーム人が開拓に従事している。#
+
+[role="dialog"]
+[gm phrase]#太陽系最大の火山、オリンポスは地表からの高さが27，000メートルもある。山頂のカルデラには軌道エレベータが建設されており、そこから宇宙に行くことも出来る。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#「最期の映像は衛星軌道上だったけど、調査の対象は地上の集落か。話がつながらないな」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#調査対象付近の集落で、バルスーム人（開拓民）に聞き込みをするか、荒野を放浪しているテクノ漂泊民に話を聞くか、ニュー上海みたいな大都市で情報を集めるか、といった選択肢がある。移動手段としてはエアカーもあるし、磁気浮上特急もある。そんなに大変ではない、としておこう。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#「まず、人が集まりそうなニュー上海あたりから調べますか」#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「なんだい、そこで銃をぶっぱなしていいんだね？」#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#いやいやいや！#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#ニュー上海は、マリネリス大峡谷の東方にあるドーム都市だ。その前に、「ネットワーキング：自治主義者」技能をもっている人は判定をしてもらえるかな。#
+
+[role="body_text"]
+*判定は、％ダイスをふり、判定値以下の数字が出れば成功。*
+例えば、ある技能の値が６０の人は、修正がなければ６０％の確率で成功する。わかりやすいね。
+出目が３０、判定値を下回るとエクセレント成功といって、より良い結果となる。
+
+[role="body_text"]
+ゾロ目での成功は決定的な成功、ゾロ目の失敗は決定的な失敗。
+あと、 *００* は常に決定的成功で、 *９９* は常に決定的失敗となる。
+
+[role="body_text"]
+ちなみに、判定する人を「チームワーク」で応援すると、協力者１名につき＋１０％される。
+今日はプレイヤーが２人しかいないけど、もっといれば最大＋３０％まで加算できる。
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#僕はオレーシャを応援しよう。「まず近場から調べたらどうですか」#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「自治主義者」技能は３５％だけど、「チームワーク」で応援をいただいたので４５％になった。（１０面体サイコロを２個転がす）……１０だ。応援のおかげでエクセレント成功。#
+
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#この場所からそう遠くない場所に、移動中のテクノ漂泊民がいるという情報を得た。そいつらがメッシュ（ネット）で噂を流している。 +
+>>消息を絶った極冠の村、ヤバイ病気が流行ったっていう通信ログがあるらしいぞ +
+>>ソースうｐよろ +
+>>現地で確認できないか？ +
+>>ジャミングかけられてるらしい +
+>>まさかクソ企業どもがパンドラ・ゲートから何か持ち込んだとか？ +
+>>オワタ +
+>>人類オワタｗｗｗ#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#じゃあ地上バギーでも飛ばして、テクノ漂泊民に会いに行ってみる。#
+
+=== シーン２ ある漂泊民氏族との遭遇
+[role="body_text"]
+ランド・バギーに乗って、オレーシャとハルノブは火星の平原を行く。
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#赤い荒野に土煙をあげているトレーラーの車列が見えてきた。漂泊民の一氏族らしい。安っぽいロボットのような合成義体（シンセ・モーフ）を着た労働者っぽい連中や、高空から偵察しているらしいトンボ型の義体も見える。トンボ義体は１メートル以上もある大きな航空モーフで、腹部にはスナイパーライフルを装備している。変なことをすれば上空から狙撃されるかもしれない。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#漂泊民#
+[separator]#：#
+[gm phrase]#「話があるそうだが、タコはともかくリーパー型とはな。まずは武装を解除してもらおう」#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「こんなのァ付け爪みたいなもんじゃないか」ガシャガシャとパージ。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#機械の義体っぽくて良い演出だな、＋１０％、社交で判定していい。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#（ダイスを転がして）あれっ、失敗した。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#漂泊民#
+[separator]#：#
+[gm phrase]#「あー、よそ者はお断りだ、さっさとどっか行け」#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#ここは僕の「水墨画：５０％」で！#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#おい、それでどうやって交渉しようというんだ。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#火星の大地に、自らの墨でダイナミックなアートを描くのですよ。ラブアンドピース、みたいな絵を！#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#ううーーん。じゃあ－１０％で判定。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「何やってんだい、このタコノブは？」応援しないね。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#あっ６０、失敗しました。「伝説のウキヨエを描いてみたのにっ。駄目でした、ホクサイ＝サン……！」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#漂泊民#
+[separator]#：#
+[gm phrase]#君たちは追い払われた。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#いや待ってください、「手先：４５％」で！八本の脚を使って手品で和ませよう！「いつもより多めに回しているのだ！」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#えー、なんだそれ。じゃあ、－１０％で判定してくれ。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#９がでた！成功！神のようなジャグリングです。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#漂泊民#
+[separator]#：#
+[gm phrase]#「あっ、旅芸人だったのか。みんな、面白いタコがいるぞ、来てみろよ」と、合成義体の人々が集まってくる。「何か話を聞きたいとか？」#
+
+[role="body_text"]
+漂泊民に話を聞くと、
+北極の開拓村で疫病が流行したという噂があることがわかった。
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#「シンセ・モーフの開拓村に疫病が流行するというのもおかしな話だが、物騒なことがあると、里者とたまに取引する我々としても困るのでな。気にしてるんだ」#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#疫病ねえ。コンピュータ・ウィルスかな。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#漂泊民がおもいだしたように言う。「そういや、環境主義テロリストの連中がニュー上海に集まってるってな話もあるナァ。そこのお前みたいな知性化タコもいるらしいぞ。ネオ秋葉原の店だったかな」#
+
+[role="body_text"]
+ハルノブは「ネットワーキング：エコロジスト」の判定に成功。
+関連する「e-rep」は４０あるので、レベル３（業界通なら知っているレベル）の情報を知ることができた。
+
+[role="body_text"]
+Rep（レプ）とは、メッシュ・ネットワークにおける人物の評価を数値化したもの。
+貨幣経済のほかに、この時代では「信用経済」も存在しており、特定ジャンルでRepの高いキャラクターは、
+人脈により支援をうけたり、情報を提供してもらったりすることができる。
+現代でいうと、ツイッターのフォロワー数のようなものだ。
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#ニュー上海の一画に、ネオ秋葉原というアレないかがわしいエリアがある。そこの＜カフェ・セカンドアース＞という店に、環境主義テロリストを主導する知性化タコが出入りしているらしい。#
+
+[role="dialog"]
+[gm phrase]#環境テロリストというのは、火星環境を守るためならテロも辞さないという過激派だな。というのも、ハイパーコープによるテラフォーミングは氷の小惑星を落下させたりする乱暴な手法なので、バルスーム人（開拓民）から反感を買っているという背景がある。だから火星の環境保護運動も一定の支持を得ている、としておこう。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#ダム建設で村が水没させられたりするかんじだねえ。「まさかその店に、わがダイレクト・アクション社に敵対する環境テロリストが来たり、してないよねえ？」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#君の脳内にある *支援AI「ミューズ」* が社内データバンクを呼び出した。視野のはじっこに「手配中の環境テロリストが潜伏している可能性あり」という表示が。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「……楽しくなってきたネェ」本来の目的を忘れている（笑）#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#火星の環境保護団体なら、環境汚染しかねない実験にも敏感だろうね。今回の事件について、何らかの情報は得られそうな気もする。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#ネットワーキング：ハイパーコープで情報を集めよう。……エクセレントです。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#元々、火星では、ハイパーコープによる搾取に対し、バルスーム人による反体制運動が盛んだ。さらに、近ごろ、知性化種による反政府・反企業運動が盛り上がっていると分かった。ダイレクト・アクション社にも、反体制運動を抑制するよう、企業から依頼がきているらしい。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#でも、ファイアウォールの依頼が優先だよな。とはいえ、ダイレクト・アクション社の傭兵という表の仕事と天秤にかけつつ（笑）#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#そのあたりの葛藤も面白いね。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#まだ北極に飛ぶほどの情報は集まってない気がするし、その店に行ってみますか。#
+
+=== シーン３ 喫茶「セカンド・アース」
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#君たちはバギーを飛ばし、グランドキャニオンの１０倍以上もある赤い大峡谷を抜け、ニュー上海にやってきた。鈍く銀色に輝く巨大ドーム都市で、あたりの空には無数のエアカーが行き交っている。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「あたしはこの図体で店に入るわけにはいかないから、タコノブ頼んだよ」#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#「ハルノブです」#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「何かあったらメッシュで一報してくれれば、片付けてやるさ」砲塔とランチャーを展開して見せつける。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#ドーム都市の入り口で警備兵が「そこのリーパー！重戦闘モーフは市街地立ち入り禁止だ！」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#警備兵２#
+[separator]#：#
+[gm phrase]#「（ひそひそ）ダイレクト・アクションの傭兵がなぜこんなところに」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#警備兵１#
+[separator]#：#
+[gm phrase]#「（ひそひそ）やばいぞ。開拓民どもの暴動か、企業間抗争か？」#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#キャラクターは基本、メッシュで常時接続してるから別行動しても大丈夫でしょう。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#離れたところで待機してよう。鏡台に向かう乙女のようにレールガンを手入れしている。鼻歌でも歌いながら。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#君がレールガンを展開したのをみて、警備兵ふたりがガクブルしている。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#では行ってきます。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#ハルノブがニュー上海のゲートをくぐると、賑やかな近代都市が目に入る。人口3，700万人、太陽系最大の都市だ。雑踏からは中国語をはじめ、英語、ヒンズー語、アラビア語なども聞こえてくる。中華圏っぽい鮮やかなネオンと立体広告の中、色々な義体の人々が歩いている。ロボット的な合成義体の人もいれば、翼を背中から広げた生体義体の人もいる。お金持ちの人は、荷物持ちロボットを連れていたり。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#ネオ秋葉原に向かおう。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#そこはカオスな一画で、ごちゃついた街だ。妙にアニメっぽい美少女義体が目につく。中身は *アニオタ（男）* なんだろうなあという気がする（笑）#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#逆に、耽美な青年義体の中身は、 *腐女子* の可能性があると？#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#幼児義体だと社交にマイナス修正だが、青年義体はどうなんだろう。トランスヒューマンも業が深い。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#変なエリアに来たなあ。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#広告ドローンが君のそばに自走してきた。強制的に、視野にエロ画像が重ねられる。肉体的快楽をはじめ、成人向けの五感が強制ダウンロードされてくるよ。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#うわあ。回避判定に成功、ダウンロードを遮断する。「都会はイヤなところだなあ」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#問題の店、カフェ・セカンドアースにやってきた。小さなカフェだ。中は薄暗い。上品な音楽が流れる中、失われた地球の樹木が植えられ、人工の小川があり、知性化オウムが飛んだりしている。知性化ゴリラやハイパー・ギボンもいるぞ。タコ用に、地球の海岸を模したプールもある。有料だが。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#クレジット入金して少し泳ごう。気持ちいいねえ。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#メッシュ接続してるので、外で待っているオレーシャは、ハルノブが泳いでいるプールの映像を見て、水の冷たさも感じた。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「タコノブ仕事しな」彼の視界にウィンドウを開いて、いらいらした表情でエゴ・アイコンを表示させる。#
+
+image::../images/oreshalarry2.png[Larry氏画、加工清水三毛、2013年]
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#ひいっ、すみません。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#？#
+[separator]#：#
+[gm phrase]#「ずいぶんお楽しみのようだな、ハルノブ」威圧感のある低い声がする。年老いた大柄な知性化タコが現れる。ハルノブは彼を知っている、火星を根城にするスカベンジャーたちの元締めだ。サイバー化した半機械化タコで、あちこちに武装も埋め込んでいる。アーマーは弾痕や傷痕だらけだ。名はスダールといい、実はこの店のオーナーでもある。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#おや？そいつ、まさか環境テロリストの親玉じゃ？#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#オレーシャの視野で、スダールに警告表示が次々と重なっていく。#
+
+* ＜第一級警戒対象人物＞
+* ＜当社との交戦記録あり＞
+* ＜警戒せよ＞
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#面白くなってきたじゃないか、とメッシュの中で口笛を吹く。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#「実は最近、北極の方がきな臭いと聞きまして」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#スダール#
+[separator]#：#
+[gm phrase]#「ほほう、鋭いな。全く哺乳類というのは野蛮だ」#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#「彼らも我々のような軟体に進化すべきですよね」#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#ヘイ！記録は録ってるからね。酢ダコを食べたくなるねぇ。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#うわあ怖い（笑）#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#スダール#
+[separator]#：#
+[gm phrase]#「ホモ・サピエンスどもめ。我らをアップリフトしたとはいえ、故郷の星を滅ぼし、火星までも住めなくするのはけしからん。で、その北極の噂だが。あるハイパーコープが意図的に、その辺りに輸送船を墜落させたという情報があってな。 それで集落が壊滅したというのだよ。レッドエデン・プロジェクト絡みって噂もある」#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#「疫病との関連は」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#スダール#
+[separator]#：#
+[gm phrase]#「テラフォーミング事務所が公にしていない、未登録の宇宙港が軌道上にあるらしい。２２ドッキングベイだ。輸送船はそこから発進したらしい」#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#お、話がつながった。そこまでは前のあたしらも調べたんだな。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#スダール#
+[separator]#：#
+[gm phrase]#記憶が欠落していて全部はわからなかったんだろうね。「ここでも住む場所がなくなっちゃあ、俺たちも困る。どうだ、俺からの頼みとおもって、一つ調べちゃくれねえか」#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#「もちろんですとも！」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#スダール#
+[separator]#：#
+[gm phrase]#「２２ドッキングベイは軌道エレベータ経由で行くのがいい。貨物にまぎれて潜入するのが安全だ。宇宙船で軌道から接近したら対空レーダーにひっかかるからな、そんなことする素人じゃねえと思うが」#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#「ハハッ、シャトルで接近するなんて素人ですヨネー！」（裏声）#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#メッシュ上で機密ファイルを漁ったりしてもいいが、秘密ドックには何らかの物理的な証拠がある可能性が高い。だから、前の君たちは敢えて潜入しようとしたのだろう。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#潜入するにしても情報は集めないとね。二の舞はゴメンだ。#
+
+[role="body_text"]
+秘密の宇宙港から発進した輸送船はどこに向かったのか？
+
+[role="body_text"]
+オレーシャは「ネットワーキング：ハイパーコープ ６０％」で事前調査を試みる。
+人脈を使った情報収集だが、かなりの難易度とみて、ＧＭは－３０の修正をかけた。
+
+[role="body_text"]
+ハルノブの「チームワーク」応援と本人のロールプレイによって＋２０修正、
+結果として修正は－１０に抑えられ、判定結果はエクセレント成功であった。
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#２２ドッキングベイから発進した輸送船は、例の、北極にあるＤ１９２居住区に墜落したらしい。その２２ドッキングベイには軌道エレベータから行くことが出来る。ドックのセキュリティ体制は標準、侵入するならハッキングして解除しなければならない。#
+当然、防衛戦力もあるだろう。
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#そんなところに前のあたしたちは突入していったのか。無謀すぎる。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#*そうやって何回も死ぬことで、人は成長する（笑）*#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#スダールさん、実は僕が二人目だって気づいてたんじゃないかな（笑）#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#内心「あいつ、また来たよプギャー」と思っていても口には出さなかったのかもしれない。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#いきなり墜落地点に行くのも危なそうだし、２２ドッキングベイを調べてみるか。その前に、ちょっと知性化タコのメイド喫茶に寄って行こうかな。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「帰ってきたら単分子ブレードで刺身にしてやる」#
+
+=== シーン４ 第２２衛星軌道ドック
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#君たちはオリンポス山の山頂から軌道エレベーターに乗り込んだ。軌道上の宇宙港に搬入される資材にまぎれこんで、目標の２２ドッキングベイに潜入するんだね。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#保安システムのハッキングはどうする？#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#「情報保安技術」でハッキングして無効化しないと危険だ。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#ないよ。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#その技能もってない。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#なんだと。では、本当は違う技能なんだが、オレーシャの「セキュリティ・オペレーション」を－１０％で使ってもよい。アクセス用の端末の位置を探ったかんじ。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#あっ、ゾロ目で成功、クリティカルだ。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#保安システム概要が分かった。軌道上からの識別不明機に対しては *対宇宙ミサイル* 、施設内の不審者に対しては、室内の *２０ミリ機関砲* が全自動で対処する仕組みになっている。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#そのミサイルに前の僕らはやられたんだな（笑）#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#今のでセンサの探知範囲もわかったので、あとはハルノブが潜入判定に成功したら問題ない。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#僕の出番だな。「潜入５５％」にカメレオン・スキンで＋２０％だぜ。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「見せ場だろ。上手いことやりなよ。失敗したら刺し身な」と、チームワークで応援（笑）。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#さらに＋１０％してハルノブさん判定を。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#２レベルのエクセレント成功！#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#君はタコならではの柔軟さで、ぐにぐに～っとセンサをくぐり抜けていった。途中、浮遊機雷ドローンがそばを通り過ぎていったりした。ドッキングベイの管理事務所っぽい部屋に出る。人はいないようだ。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#「インターフェイス」で、輸送船の発進ログを漁ってみよう。４５％、お、３だ。エクセレント成功。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#その輸送船には、高効率の気化爆薬が搭載されていた。まるで何かを燃やしたかったようだ。そして機密の指令書がみつかった。「ＭＭ－９９株の感染力は制御不能と判断。実験エリア全域を焼却処分せよ。 *セキュリティランク：極秘* 」#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#うわあ。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#極冠には水やドライアイスの氷床がある。これを蒸発させて温室効果で気温を上げる事業がテラフォーミングの一環として行われており、副産物として生じる水については、作業員が泊まっている開拓村で利用されているんだな。その上水道に何かを混ぜるのは、簡単ですよね。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#はあ。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#極冠は直径１０００キロ、面積１００万平方キロメートル。その氷床をミラー衛星で溶かしているうちに、氷の下から何か出てきたらしい。非・地球起源の巨大物体……異星の宇宙船がね。「当社はレッドエデン・プロジェクトの副産物として非地球起源宇宙船の調査を進め、新種のエクスサージェント・ウィルス＜ＭＭ－９９株＞の分離に成功した」#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#エクスサージェント・ウィルスきたーーーー！#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#この企業は、よりによってエクスサージェント・ウィルスを兵器に転用するつもりだったようだ。#
+
+[role="body_text"]
+説明しよう！
+
+[role="body_text"]
+エクスサージェント・ウィルスとは、外宇宙を起源とするウィルスである。
+人間や機械に感染して怪物化させたり、超能力を発現させたりする厄介きわまりない病原体で、
+基本的にX-リスクである。
+TITANsの戦闘マシン、エイリアンの遺物や遺跡にはしばしばエクスサージェント・ウィルスが潜んでいるため、
+そうした物体に触れるのは非常に危険である。
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#あと１０分ぐらいで巡回ドローンがやってくるぞ。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#脱出の判定にエクセレント成功。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#ぶじ脱出できた。ファイアウォールの連絡役に報告するよね。「状況は予断を許さないわね。直ちに現地に飛んで、調査してちょうだい。もし汚染された物体が残っていたら大変だからね」#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#そんな無茶なー！#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#Ｇ#
+[separator]#：#
+[gm phrase]#「大丈夫、探査衛星の情報によれば、奴らは現地を焼却したから油断していて、付近に戦力はほとんどないわ。奴らの野望を打ち砕くのよ！」#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#いやいやいや。拒否できないのかコレ。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#送られてきた衛星画像にはノイズがある。現地は火星名物、砂嵐のせいで電磁妨害されているようだ。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#ファイアウォールに勤めてるんだが僕はもう限界かもしれない。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#秘密結社だから仕方ないよね。今、ここで避ける人員が他にいないんだ。何もハイパーコープと戦争しろってんじゃなくて、X-リスクがちゃんと焼却されているか確認してほしい、ということだよ。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#「もうちょっと人員をかき集めるとか、ないんですか」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#Ｇ#
+[separator]#：#
+[gm phrase]#「なるべくのことはしてみるけど、今すぐは難しいわネ」（ひどい話である）#
+
+=== シーン５ 北極潜入作戦
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#上空から潜入してみよう。その方が時間を節約できそうだ。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#北極航路の輸送機に偽装して、ランドバギーごと君たちは現地に飛ぶことになった。帰りはバギーで脱出すればいい。君たちはダイレクト・アクション社のいかつい軍用強襲揚陸機を雇って、手近な空港から離陸した。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#パイロット#
+[separator]#：#
+[gm phrase]#「まもなく北極、目標地点上空！降下用意！」#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「ダイブ、ダイブ、ダイブ！」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#貨物庫の扉が開く。火星の赤い空がみえ、高層大気がどっと吹き込んでくる。バギーごと、パラシュート使って自由落下だね。フリーフォール（無重力活動）技能を使っていい。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「死に神が死地に赴くか。洒落てるねえ」#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#ひいいい。必死に操縦。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#高度計の数値がどんどん減少していく。#
+
+[role="body_text"]
+ふたりは分担して、逆噴射と着陸の判定を行う。
+「フリーフォール」「地上車両」技能を使い、結果はエクセレント成功。
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#バギーは華麗に着陸、パラシュートとスラスタを切り離して走り出した。だが、目的の村に近づくと、ものすごい砂嵐で前が見えない。地上車両で操縦判定を。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#普通の成功。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#君たちは巨大なクレーターの内側にはりつくように進み、かつて村だったエリアにたどり着いた。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#そういえば僕ら、防護服は当然、着ているよね。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#輸送船の墜落によって、集落は焼け焦げた残骸となっている。ただ一つ、病院の残骸みたいなものは村外れに見えているけどね。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#回収作業をしている様子はない？#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#大型の船が着陸したような跡がある。誰かが何かを持ち去ったようだ。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#これはもう手遅れなのでは……。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#病院を調べてみるか。入りたくないねえ。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#病院の内部は焼け焦げた残骸と化しているが、なんとか歩くことは出来る。知覚でふってみてくれ。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#成功しました。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#君は病室の一画に、生存者らしき人がいるのに気づいた！合成義体だ。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#「大丈夫か！」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#その人の義体は奇妙にねじ曲がっている。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#……話しかけてみよう。「何があったんですか」#
+
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#生存者#
+[separator]#：#
+[gm phrase]#「ある日、どこぞの企業が上水施設を作ってくれてのう。だが、その水を飲んだ生体義体の者や、その水でパーツ洗浄をした合成義体の村人たちが、次々に異形へと変わっていってのう。そしてあの夜、空から火の玉が墜ちてきて村は全滅じゃ。その後で、白い防護服を着た奴らが降りてきて、何もかも持ち去ってしもうた。わしの妻の義体も……」#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#「スタックさえ残っていれば助けることが出来ますよ！」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#ちょっと「勇気」の１０倍を目標に判定をしてね。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#成功。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#君の防護服が警告表示を。「危険、病原体を検知」#
+
+[role="dialog"]
+[gm phrase]#生存者の顔がゴムのようにぐにゃああと歪んで、義体がぽんっと真っ二つに弾ける。内側からは、数百本はあろうかという無数の触手が蠢き飛び出し、君たちに襲いかかってくる。エクスサージェント・ウィルスに既に感染していたようだ。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#ですよねー。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#撃つか、逃げるかしていいよ。回避技能を使っていい（←狂気判定を忘れている）。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#タコ、回避技能がないんですが（笑）#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#（笑）#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#戦うしかないねえ。#
+
+[role="body_text"]
+ハルノブは、元・生存者の怪物から距離３メートル、その後ろにオレーシャという配置で戦闘開始。
+イニシアティブはオレーシャがとった。
+
+[role="body_text"]
+一射め、オレーシャはレールガンをフルオート射撃、怪物にクリティカルで命中させる。
+一撃で３７ダメージ。
+その一撃で、怪物の身体は半分が吹き飛び、汁っぽい音とともに後ろに吹き飛んだ。
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#ヒャッハー！#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#逃げる、逃げます！#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#君たちは病院から逃げ出した。怪物は追ってこない。#
+
+[role="dialog"]
+[gm phrase]#もう君らは分かる、そのハイパーコープは、明らかに故意にＭＭ－９９ウィルスをこの集落に流したのだ。あとは、上水道パイプラインを辿っていけば出所を探ることができそうだ。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#ところで、ウィルス感染物体を残しておいたら危なくね？あたしの武装に、H.E.弾頭があるんだけど。ダメージ３Ｄ＋１２。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#X-リスクの消去のため、やむをえない措置ということだね（笑）その弾頭は炸裂弾なので、使えばきれいにウィルスは除去できる、としておこう。病院の残骸は動かないので、実体弾技能＋１０で判定していい。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#命中。 *「ヒャッハー！汚物は消毒だぁー！」*#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#ひどい気もするけど（笑）オレーシャさんブレないわー。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#病院は榴弾の炸裂により爆発炎上、大爆発。消毒されました。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#ファイアウォールは正義。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#さて、巨大クレーター内部を歩いて上水道パイプラインを探したんだね。判定してください。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#失敗したので「勇気」を１点使って出目をスワップ。成功にしました。#
+
+[role="body_text"]
+「勇気」は各キャラクター固有のいわゆるヒーローポイントで、
+これを消費すると１と１０の出目を入れ替えたり、成功した判定を決定的な成功にしたり出来る。
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#パイプラインは、白く光る氷原の彼方、機械城塞のようなプラント施設へと伸びている。明らかにテラフォーミング関係のハイパーコープが手がけている大気改造プラントだ。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#「じゃ、後はこれを報告して帰るだけですよね！」#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#まさかプロキシさんも突入しろとか言わないよね。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#ターボファンジェットの轟音が響く。重装甲の攻撃機が７機、クレーターの縁をなめるように低空飛行してきた。機首を君たちに向け、攻撃態勢に入ったのが見えるよ。翼の下には何十発というロケット弾。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#どういうことですか。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#これは、汚物は消毒的な？#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#オレーシャは軍人だから分かるだろうけど、あんなに派手に物を燃やしたら赤外線が衛星から感知されちゃうよね。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#まってよ、砂嵐があるって言ってたよね。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#村に来てからは砂嵐は描写してないよね。砂嵐は去っていたのさ。「潜入」で判定してもらえるかな、＋２０で。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#潜入技能は無いから、走って逃げる（笑）#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#成功、建物の残骸に隠れる。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#イオノクラフト推進で高速退避するオレーシャの後ろに、ロケット弾が降り注ぐ。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#うわあああ。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#村の残骸がロケット弾とナパームでつぎつぎに爆発、吹き飛んでいく。クレーター内部は火山のように燃えさかり、黒煙を噴き上げた。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#超コワイ！#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#（判定して）しばらく生存者を捜していたようだが、攻撃機は君たちには気づかなかったようで、飛び去っていった。まあ、隠密行動の最中に爆破するという行動はこのような結果を招くわけです。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#おかしい、ファイアウォールとしては正しい判断だったと思うのだが（笑）#
+
+=== シーン６ 突入、大気改造プラント
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#Ｇ#
+[separator]#：#
+[gm phrase]#遠くのプラント施設の動きがにわかに慌ただしくなり、人員や航空機が出入りしはじめたように見える。ファイアウォールの連絡役から通信が入る。「大変、なぜか奴らが活発化しはじめたみたい。大型輸送シャトルを呼び寄せて、集落から回収した残骸を宇宙に運び出すつもりよ。ウィルス汚染された物体がテロにでも使われたら取り返しがつかない。阻止して！」#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#「応援とかないんですかあー！」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#Ｇ#
+[separator]#：#
+[gm phrase]#「間に合う工作員はあなた方しかいないわ。大丈夫、この混乱にまぎれて潜入して、敵大型シャトルの着陸を阻止するだけでいいから」#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#「攻撃すれば阻止はできるだろうけど、そのあとでこちらも撃たれるわけで……」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#単に敵大型シャトルを撃つのではなく、事故に見せかければいい。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#そうそう。全て事前に計画していたのさ。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#せめて事前に説明してくださいよぉー！#
+
+[role="body_text"]
+ファイアウォールの手配した降下艇に乗り込み、２人は大気改造プラントへと接近する。
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#上空から見下ろすプラントは、まさに黒鉄の城塞。林立する鉄塔からもうもうと水蒸気や二酸化炭素ガスが噴出し、火星大気の気温を上昇させつつある。警告灯が各所に点滅し、戦闘ドローンやリーパー部隊が慌ただしく右往左往している。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#リーパーもいるんですか。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#長射程２７ミリ砲を装備し、赤い砂漠戦迷彩を塗ったリーパーＭ型（火星仕様）が、何機もうろちょろしているのが見える。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#オラなんだかわくわくしてきたぞ。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#その混乱にまぎれて行けば行動しやすそうだ。敵の大型シャトルが降りてくる予定の着陸パッドは近くに見えている。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#その大型シャトルの操縦をミスらせてプラント設備にぶつけて爆発させれば、何もかも燃えて証拠も残らないさね。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#プラントの中央には、発掘されつつある巨大な黒っぽい宇宙船が見える。数百万年前に落下してきたらしい、外宇宙の船だ。有機的で異質な、禍々しい船体形状がみてとれる。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#何なんだよこの依頼、割にあわないよ。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#オレーシャに潜入系の技能がないから、何か手を考えないといけない。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#陽動しかないな。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#地上から接近すると、雪上車が何台か駐車されているのが見える。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#ははーん。あれに爆薬的なものを積んでプラントに突入させれば。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#僕、テルミット爆薬もってるよ！（笑）#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#自動で起爆するようにテルミットをセットするなら、タコさんの爆破技能で判定だな。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「派手な花火を上げようじゃないか！」と応援。#
+
+[role="body_text"]
+爆薬の設置判定は、出目９８で失敗。「勇気」を使ってスワップしても失敗である。
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#失敗なので、無人での起爆セットはできなかった。誰かが運転して突っ込むしかない。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#やるしかないねぇ。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#Ｇ#
+[separator]#：#
+[gm phrase]#「あなた方のバックアップはとってあるからね！いざとなったら……分かるわね！」#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#この世界コワイ。雪上車から飛び降りるのに失敗しても起爆するようセットしておこう（汗）#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#乗るのはオレーシャだけだね。雪上車のエンジンをかけて加速すると、警備兵やリーパーが、「誰だお前は！」「何をしている、止まれ！」#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#笑うしかない。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#操縦判定に成功した。どこにぶつけようかな。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#近くに燃料タンクめいたものが並んでいるが。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#それだ！（笑）#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#警備兵#
+[separator]#：#
+[gm phrase]#「止まれ、止まれ！」警備兵たちは激しく雪上車に発砲する。オレーシャはイオノクラフトを吹かして飛び降りた。テルミットが起爆し、燃料タンクに誘爆した。いくつも大爆発が起こる。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#オレーシャつええええ。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#撃たれまくっているので回避判定よろしく。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「勇気」でスワップしても失敗だ。てへぺろ。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#銃弾にまじって近接信管つきのミサイルまで飛んできて爆発する。１３ダメージ、貫通－７。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#４点だけ食らった。破片がかすっただけだな。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#爆発と銃弾の雨の中、君は逃げることに成功した。ハルノブが潜入するなら今だ。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#凄いことになってるようだけど、カメレオン・スキンも使って潜入。管制塔に忍び込むぞ。判定成功。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#管制官#
+[separator]#：#
+[gm phrase]#「なんだ、あの爆発音は？」管制官たちは余所見している。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#コンソールに忍び寄り、触手で、着陸中の大型シャトルに間違ったデータを送る。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#「インターフェイス」かな。－２０で判定。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#１５％って厳しいなあ。……でた、３だ！#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#すごいな、成功だ。では、操縦を誤った大型シャトルが、管制塔に突っ込んでくる。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#管制塔って、いま僕がいるところじゃないですかー！#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#窓の外に、巨大なシャトルの機体が！ハルノブは衝撃と爆風で大空に投げ出された。ダメージ１０ね。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#アーマーで４軽減、大した負傷じゃなかった。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#君のうしろで大型シャトルが接触事故を起こし、爆発炎上する。地上は大混乱だ。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#汚物は念入りに消毒しないとね。やつらが持ち出す予定だったコンテナを探して、H.E.弾頭を撃ち込む。あっ、判定に失敗したので、最後の「勇気」を使って成功にします。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#シャトルに乗せる予定だった貨物コンテナも爆発。キレイに燃えました。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#ちょ、それ近くにいる僕が巻き込まれるのでは。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#君は回避判定できないから、熱風で７ダメージを受けます。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#まだ生きてる。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「よし、あとは逃げるだけだね」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#君たちが逃げだそうとしたそのとき、シャトルの機首が分離する。多脚ロボットめいたマシンに変形して君たちの方に飛んできたぞ。（フレックス・ボット義体の絵を見せる）#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#可変義体のスカベンジャー！？#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#変形して機械と合体したりする小型モーフだね。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#フレックスボット#
+[separator]#：#
+[gm phrase]#「よくも俺の機体をめちゃくちゃにしてくれたな。ここで片付けてやる」大型シャトルに合体して操縦していたらしい。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#戦闘機なんかに合体されて追いかけてこられたら厄介だね。「後顧の憂いは絶っておかなきゃねえ？」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#燃えさかるプラント施設を背景に、オレーシャは戦闘態勢に入った。フレックスボットも多脚を展開し、マシンガン・アームを構える。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#回避はできないけど、僕もつきあうぜ。銃を抜く。#
+
+[role="body_text"]
+イニシアティブはオレーシャから。
+次にハルノブ、最後にスカベンジャーという順になった。
+
+[role="body_text"]
+オレーシャはホローポイント弾をバースト射撃。２レベル成功で命中させる。
+１射めはダメージ＋５されて、合計２２。２射めは２５。合計４７。
+
+[role="body_text"]
+その二射を受け、スカベンジャーは何もしないうちに大破した。
+装甲４、耐久２５しかないので仕方無い。
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#「ぐはっ、馬鹿な！？」まだスカベンジャーは生きてはいるが、全判定－４０％修正だから戦闘終了にしよう。後ろから、ぞろぞろとリーパー部隊がかけつけてくるが。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#正体が気づかれる前に逃げよう。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#赤黒い炎を吹き上げる大気改造プラントを背景に、逃げ出した君らの前にファイアウォールの降下艇がやってきて、回収してくれる。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#Ｇ#
+[separator]#：#
+[gm phrase]#「よくやったわね」#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#よくやったわね、じゃないですよ！#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#Ｇ#
+[separator]#：#
+[gm phrase]#「後の情報操作は任せなさい」しばらくして、「極冠の大気改造施設でシャトル墜落事故」「航法装置の不備か」などというニュースが流れる（笑）#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#かくして、君たちセンティネルの活躍によりハイパーコープの陰謀は阻止され、今日も人類の未来が守られた。サンキュー、ファイアウォール！#
+
+=== エンディング
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#ファイアウォールへの報告は済んだということで、エンディングにしましょう。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#スダールさんに報告する場面でお願いします。#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#カフェ・セカンドアースで、スダールは立体映像のニュースを眺めている。「……だいぶ派手にやったみたいじゃねえか。これで企業どももしばらくは悪さをしねえだろう。ただな、盗掘屋ってのはな、あんまり派手に立ち回るもんじゃないんだぞ」#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#「ですよねー」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#スダール#
+[separator]#：#
+[gm phrase]#「我らメルクリウスの存在感を示したという意味ではほめてやろう」近所の知性化種メイド喫茶のチケットをくれる。それと１０クレジットほど小遣いを。#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#喜んで受け取っておこう（笑）#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「おいタコノブ。そいつの連絡先をあたしによこしな」#
+
+[role="dialog"]
+[name harunobu]#ハルノブ#
+[separator]#：#
+[harunobu phrase]#「いやいや、そいつはさすがに出来ないぜ」#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「ふん、まあ出入りの店がわかっただけでも良しとするか」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#オレーシャはどうする。#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#休暇が終わっただろうから、上司にその旨報告をしよう。「今回の休暇は派手だったねえ」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#上司#
+[separator]#：#
+[gm phrase]#「派手な休暇とは、どういう意味だね」#
+
+[role="dialog"]
+[name olesha]#オレーシャ#
+[separator]#：#
+[olesha phrase]#「いや、なんでもない。火星で派手な花火が上がった、それだけのことさ」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+／
+[name]#上司#
+[separator]#：#
+[gm phrase]#上司は首をかしげている。「事情はわからんが、頼もしいな。君のそういうところを買っているんだよ。内惑星圏で何かあったら頼むよ」#
+
+[role="dialog"]
+[name gm]#ＧＭ#
+[separator]#：#
+[gm phrase]#冒険はまだまだ続く。というところで今回は終わりです。ありがとうございました。#
+
+[role="dialog"]
+[name pcall]#一同#
+[separator]#：#
+[pcall phrase]#お疲れ様でしたー！#
+
+[role="body_text"]
+終わり
+
+== ＧＭによるあとがきメモ
+
+[role="body_text"]
+ロール＆ロール誌９２号掲載の体験版ルールでＧＭしたところ、ハードなＳＦ世界に反してマスタリングは楽に出来る印象でした。ＳＦ描写をたくさん出来て、楽しいＴＲＰＧですね！
+
+[role="body_text"]
+プレイヤーが２名だったので、判定やダメージは甘めにしました。
+
+[role="body_text"]
+ラスボスをフレックスボットにしたのは、２ターンもてば手近なメカに合体して、より強い戦闘マシンへと変形させようと目論んでいたため。しかしそれまでの戦闘がすでに激しかったのとリーパーの火力が予想以上だったので、戦闘はそこで打ち切りにしました。
+
+[role="body_text"]
+ＧＭが独自に想像をふくらませたり、EP体験会でのセッションを元に妄想した設定が多々あることをご了承ください。
+
+== ライセンス他
+
+[NOTE]
+====
+Eclipse Phase（エクリプス・フェイズ）は、Posthuman Studios LLC の登録商標です。
+
+継承元作品は清水三毛氏の
+http://mitsuryu.sakura.ne.jp/ep/eprep01ch1.html[エクリプス・フェイズ リプレイ1 紅き氷の溶ける時] です。
+
+本作品はクリエイティブ・コモンズ「表示・非営利・継承 3.0 非移植」ライセンスのもとに作成されています。
+ライセンスの詳細については、以下をご覧下さい。
+http://creativecommons.org/licenses/by-nc-sa/3.0/[CC-BY-NC-SA 3.0 Unported]
+{% creativecommons type="by-nc-sa", iconOnly="true" %}
+{% endcreativecommons %}
+
+TRPGEpubTemplate https://github.com/tsuyoshicho/TRPGEPUBTemplate[tsuyoshicho/TRPGEPUBTemplate] を基盤としています。
+====
