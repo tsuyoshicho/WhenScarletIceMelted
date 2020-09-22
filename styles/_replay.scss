@@ -12,7 +12,7 @@
  */
 
 /* 変数 */
-$playernum: 6;
+$playernum: 2;
 
 /* 全体 */
 
@@ -88,18 +88,18 @@ h1, h2 {
 }
 
 /* PC1などではなくユーザー名をクラス名として、識別するには、extendを使う */
-.user1 {
+.harunobu {
   @extend .pc1;
 }
 
-.user2 {
+.olesha {
   @extend .pc2;
 }
 
 .name {
   $member: (
-    user1:"user1.png",
-    user2:"user2.png",
+    harunobu:"takomini.png",
+    olesha:"reapermini.png",
   );
 
   @each $name, $image in $member {

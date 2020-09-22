@@ -1,9 +1,9 @@
 {
-  "title": "TRPG EPUB Template",
-  "description": "TRPG EPUB Template",
-  "author": "TRPG EPUB Template Team/CC SA-BY 4.0",
-  "language": "ja",
-  "plugins": [
+  "title":"TRPG Replay - When ScarletIce Melted.",
+  "description":"TRPG Replay - When ScarletIce Melted. / Mike Shimizu",
+  "author":"Original Mike Shimizu,Port Tsuyoshi CHO",
+  "language":"ja",
+  "plugins":[
     "creativecommons",
     "styles-sass-fix",
     "disqus",
