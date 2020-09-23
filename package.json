@@ -13,7 +13,21 @@
     "pdf":  "honkit pdf  . WhenScarletIceMelted.pdf",
     "epub": "honkit epub . WhenScarletIceMelted.epub"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsuyoshicho/WhenScarletIceMelted.git"
+  },
+  "keywords": [
+    "TRPG",
+    "EPUB",
+    "Replay"
+  ],
   "author": "Tsuyoshi CHO <Tsuyoshi.CHO@Gmail.com>",
+  "license": "CC-BY-NC-SA-3.0",
+  "bugs": {
+    "url": "https://github.com/tsuyoshicho/WhenScarletIceMelted/issues"
+  },
+  "homepage": "https://github.com/tsuyoshicho/WhenScarletIceMelted#readme",
   "devDependencies": {
     "@proofdict/textlint-rule-proofdict": "^3.1.1",
     "@textlint/textlint-plugin-markdown": "^5.2.6",
