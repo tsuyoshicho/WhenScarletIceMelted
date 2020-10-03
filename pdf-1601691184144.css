@@ -5,22 +5,34 @@
 /* $orientation: "vertical" */
 /* 吹き出し形式 */
 /* white id:0 sepia id:1 night id:2 */
-@import url("http://mplus-webfonts.sourceforge.jp/mplus_webfonts.css");
+@import url("https://mplus-webfonts.osdn.jp/mplus_webfonts.css");
 .book.font-family-0 {
+  /* IPAゴシック */
+  /* font-family: "IPAゴシック","IPAGothic" , sans-serif; */
+  /* IPA明朝 */
+  font-family: "IPA明朝","IPAMincho",serif;
   /* 游ゴシック */
-  font-family: mplus-2c-medium,"游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  /* font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif; */
   /* 游明朝 */
   /* font-family: "游明朝体", "Yu Mincho", YuMincho, serif; */ }
 
 .book.font-family-1 {
+  /* IPAゴシック */
+  /* font-family: "IPAゴシック","IPAGothic" , sans-serif; */
+  /* IPA明朝 */
+  font-family: "IPA明朝","IPAMincho",serif;
   /* 游ゴシック */
-  font-family: mplus-2c-medium,"游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  /* font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif; */
   /* 游明朝 */
   /* font-family: "游明朝体", "Yu Mincho", YuMincho, serif; */ }
 
 .book.font-family-2 {
+  /* IPAゴシック */
+  /* font-family: "IPAゴシック","IPAGothic" , sans-serif; */
+  /* IPA明朝 */
+  font-family: "IPA明朝","IPAMincho",serif;
   /* 游ゴシック */
-  font-family: mplus-2c-medium,"游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  /* font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif; */
   /* 游明朝 */
   /* font-family: "游明朝体", "Yu Mincho", YuMincho, serif; */ }
 
