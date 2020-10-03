@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "description": "TRPG Replay - When ScarletIce mtelted.",
   "main": "",
-  "config": {
-  },
+  "config": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" ",
     "lint": "textlint README.md SUMMARY.md GLOSSARY.md doc/*",
     "start": "honkit serve",
     "build": "honkit build && rm -rf docs && cp -r _book docs",
-    "pdf":  "honkit pdf  . WhenScarletIceMelted.pdf",
+    "pdf": "honkit pdf  . WhenScarletIceMelted.pdf",
     "epub": "honkit epub . WhenScarletIceMelted.epub"
   },
   "repository": {
