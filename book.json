@@ -7,7 +7,7 @@
     "creativecommons",
     "styles-sass-fix",
     "disqus",
-    "puml"
+    "uml"
    ],
    "pluginsConfig":{
      "disqus": {
@@ -17,6 +17,10 @@
        "theme":"sepia",
        "family":"serif",
        "size":2
+     },
+     "uml": {
+       "format": "svg",
+       "nailgun": false
      }
    },
    "styles":{
