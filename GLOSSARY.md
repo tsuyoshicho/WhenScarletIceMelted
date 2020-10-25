@@ -1,14 +1,5 @@
 用語説明
 
-----
+# Eclipse Phase（エクリプス・フェイズ）
 
-CSSのcontent対策
-
-# GM
-![GMアイコン](images/gm.png)
-
-# PC1 ハルノブ
-![ハルノブアイコン](images/takomini.png)
-
-# PC2 オレーシャ
-![オレーシャアイコン](images/reapermini.png)
+Posthuman Studios LLC のTRPG
