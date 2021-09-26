@@ -1,7 +1,7 @@
 # エクリプス・フェイズ リプレイ
 ## エクリプス・フェイズ リプレイ１ 紅き氷の溶ける時
 
-この文書データは、以下のURL、ライセンス、原著者の文書として公開されているものを [HonKit](https://github.com/honkit/honkit) に移植したものです。
+この文書データは、次に挙げるURL、ライセンス、原著者の文書として公開されているものを [HonKit](https://github.com/honkit/honkit) に移植したものです。
 * [http://mitsuryu.sakura.ne.jp/ep/eprep01ch1.html](http://mitsuryu.sakura.ne.jp/ep/eprep01ch1.html "URL")
 * [CC-BY-NC-SA 3.0 Unported](http://creativecommons.org/licenses/by-nc-sa/3.0/)
 * ＧＭ・シナリオ作成：清水三毛
