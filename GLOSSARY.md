@@ -2,4 +2,4 @@
 
 # Eclipse Phase（エクリプス・フェイズ）
 
-Posthuman Studios LLC のTRPG
+Posthuman Studios LLCのTRPG
