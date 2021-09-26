@@ -17,7 +17,7 @@
 * NPC/GM となっている表記は GM/NPC としている
 
 # ライセンス他
-Eclipse Phase（エクリプス・フェイズ）は、Posthuman Studios LLC の登録商標です。
+Eclipse Phase（エクリプス・フェイズ）は、Posthuman Studios LLCの登録商標です。
 
 継承元作品は清水三毛氏の [エクリプス・フェイズ リプレイ1 紅き氷の溶ける時](http://mitsuryu.sakura.ne.jp/ep/eprep01ch1.html) です。
 
