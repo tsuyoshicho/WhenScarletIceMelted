@@ -14,7 +14,7 @@
 
 以下の点については変更があります。
 
-* NPC/GM となっている表記は GM/NPC としている
+* NPC/GMとなっている表記はGM/NPCとしている
 
 # ライセンス他
 Eclipse Phase（エクリプス・フェイズ）は、Posthuman Studios LLCの登録商標です。
