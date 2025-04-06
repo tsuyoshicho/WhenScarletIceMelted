@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          submodules: true
+
       - name: Cache npm
         uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4.2.3
         with:
@@ -76,14 +79,14 @@ jobs:
 
       # Update corresponding major and minor tag.
       # e.g. Update v1 and v1.2 when releasing v1.2.3
-      - name: Update version
+      - name: Update semver
         uses: haya14busa/action-update-semver@fb48464b2438ae82cc78237be61afb4f461265a1 # v1.2.1
         if: "!steps.bumpr.outputs.skip"
         with:
           tag: ${{ steps.bumpr.outputs.next_version }}
 
       # Get tag name.
-      - name: Check tag
+      - name: Tag check
         id: tag
         uses: haya14busa/action-cond@94f77f7a80cd666cb3155084e428254fea4281fd # v1.2.1
         with:
@@ -92,38 +95,29 @@ jobs:
           if_false: ${{ steps.bumpr.outputs.next_version }}
 
       # Create release.
-      - name: Release
-        uses: actions/create-release@0cb9c9b65d5d1901c1f53e5e66eaf4afd303e70e # v1.1.4
-        id: create_release
+      - name: Create release
         if: "steps.tag.outputs.value != ''"
         env:
-          # This token is provided by Actions, you do not need to create your own token
+          TAG_NAME: ${{ steps.tag.outputs.value }}
+          CURRENT: ${{ steps.bumpr.outputs.current_version }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ steps.tag.outputs.value }}
-          release_name: Release ${{ steps.tag.outputs.value }}
-          body: ${{ steps.bumpr.outputs.message }}
-          draft: false
-          prerelease: false
+        run: |
+          gh release create "${TAG_NAME}" -t "Release ${TAG_NAME/refs\/tags\//}" --generate-notes --notes-start-tag "${CURRENT}"
 
       - name: Upload Release Asset PDF
-        uses: actions/upload-release-asset@e8f9f06c4b078e705bd2ea027f0926603fc9b4d5 # v1.0.2
         if: steps.tag.outputs.value != '' && steps.build.outputs.pdf != ''
         env:
+          TAG_NAME: ${{ steps.tag.outputs.value }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
-          asset_path: ./${{ steps.build.outputs.pdf }}
-          asset_name: ${{ steps.build.outputs.pdf }}
-          asset_content_type: application/pdf
+          FILENAME: ${{ steps.build.outputs.pdf }}
+        run: |
+          gh release upload "${TAG_NAME}" "${FILENAME}"
 
       - name: Upload Release Asset EPUB
-        uses: actions/upload-release-asset@e8f9f06c4b078e705bd2ea027f0926603fc9b4d5 # v1.0.2
         if: steps.tag.outputs.value != '' && steps.build.outputs.epub != ''
         env:
+          TAG_NAME: ${{ steps.tag.outputs.value }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
-          asset_path: ./${{ steps.build.outputs.epub }}
-          asset_name: ${{ steps.build.outputs.epub }}
-          asset_content_type: application/epub+zip
+          FILENAME: ${{ steps.build.outputs.epub }}
+        run: |
+          gh release upload "${TAG_NAME}" "${FILENAME}"
